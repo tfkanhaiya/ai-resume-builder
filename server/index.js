@@ -188,6 +188,6 @@ app.use((req, res) => {
 });
 
 app.listen(5000, () => {
-  console.log("🚀 Server running on https://ai-resume-builder-iinu.onrender.com");
+  console.log("🚀 Server running on http://localhost:5000");
   console.log("🤖 Model: llama-3.3-70b-versatile (Groq - Free)");
 });
